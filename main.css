@@ -1,0 +1,67 @@
+body {
+	font-size: 12px;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.sliders-container {
+	position: relative;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;   
+}
+
+.row {
+	position: relative;
+	margin: 10px;
+	height: 30px;
+}
+
+.col{
+	position: relative;
+	float: left;
+}
+
+.col:first-child{
+	margin-right: 5px;
+	padding-top: 5px;
+	height: 25px;
+
+}
+
+#colour {
+	border: 1px solid #000;
+	width: 300px;
+	height: 300px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Slider Skin */
+.slider-holder{
+	width:446px;
+	height:14px;
+	background-color: #ddd;
+	padding-top: 10px;
+	border-radius: 4px;
+	border:1px solid #ccc;
+}
+
+.slider-line{
+	width: 426px;
+	height: 4px;
+	border-bottom: 1px solid #bbb;
+	background-color: #888;
+	margin: 0 auto;
+}
+
+.slider-dragger{
+	width: 26px;
+	height: 16px;
+	border-radius: 3px;
+	background-color: #555;
+	top: -6px;
+	left: 0px;
+}

@@ -1,0 +1,18 @@
+.slider-holder{
+	position: relative;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;      
+}
+
+.slider-line{
+	position: relative;
+}
+
+.slider-dragger{
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
